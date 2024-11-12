@@ -40,7 +40,7 @@ function PriceGallery({ room }) {
         >
           {room.pics.map((pic) => (
             <SwiperSlide key={pic}>
-              <Image width={400} height={400} src={pic} />
+              <Image width={400} height={400} src={pic} alt="pic" />
             </SwiperSlide>
           ))}
         </Swiper>
