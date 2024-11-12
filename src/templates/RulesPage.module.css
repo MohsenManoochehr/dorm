@@ -1,0 +1,42 @@
+.rules {
+  direction: rtl;
+  width: 90%;
+  margin: auto;
+}
+
+.rules ol {
+  margin-right: 60px;
+}
+
+.rules li {
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@media (max-width: 720px) {
+  .rules li {
+    font-size: 16px;
+  }
+  .rules ol {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rules li {
+    font-size: 14px;
+  }
+  .rules ol {
+    margin-right: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .rules li {
+    font-size: 12px;
+  }
+  .rules ol {
+    margin-right: 20px;
+  }
+}

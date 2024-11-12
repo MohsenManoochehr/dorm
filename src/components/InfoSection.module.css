@@ -1,0 +1,146 @@
+.infoSection {
+  direction: rtl;
+  width: 96%;
+}
+
+.infoSection ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.infoSection li {
+  font-size: 20px;
+  margin: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.infoSection p {
+  display: flex;
+  align-items: center;
+}
+
+.infoSection li svg {
+  font-size: 30px;
+  margin-left: 10px;
+  color: #e49572;
+}
+
+.infoSection > div {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+  margin-top: 20px;
+}
+
+.infoSection > div a {
+  color: #fbe7da;
+  padding: 10px 15px;
+  background-color: #f07f42;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.151);
+  border-radius: 10px;
+  transition: all linear 0.2s;
+  margin-right: 20px;
+}
+
+.infoSection > div a:hover {
+  background-color: #d94b0e;
+}
+
+.infoSection > div h4 {
+  display: flex;
+  align-items: center;
+}
+
+.infoSection > div h4 svg {
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+@media (max-width: 720px) {
+  .infoSection {
+    width: 90%;
+  }
+  .infoSection li {
+    margin: 20px 10px;
+  }
+  .infoSection > div h4 {
+    width: 300px;
+    line-height: 1.5;
+  }
+  .infoSection > div h4 svg {
+    font-size: 40px;
+  }
+  .infoSection h3 {
+    line-height: 1.5;
+  }
+  .infoSection li p {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 480px) {
+  .infoSection li p {
+    font-size: 16px;
+  }
+  .infoSection li svg {
+    font-size: 24px;
+  }
+  .infoSection li {
+    height: 30px;
+  }
+  .infoSection h3 {
+    font-size: 16px;
+  }
+  .infoSection > div h4 {
+    font-size: 14px;
+    width: 200px;
+  }
+  .infoSection > div a {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .infoSection li p {
+    font-size: 12px;
+  }
+  .infoSection h3 {
+    font-size: 12px;
+  }
+  .infoSection > div h4 {
+    font-size: 12px;
+  }
+  .infoSection > div a {
+    font-size: 10px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .infoSection li {
+    width: 220px !important;
+    margin: 10px 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .infoSection > div h4 {
+    font-size: 10px;
+    width: 140px;
+  }
+  .infoSection li p {
+    font-size: 10px;
+  }
+  .infoSection li {
+    width: 180px !important;
+  }
+  .infoSection > div a {
+    margin-right: 0;
+  }
+}

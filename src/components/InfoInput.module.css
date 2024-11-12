@@ -1,0 +1,138 @@
+.signInfo form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 30px 50px;
+  background-color: #d5bec3;
+  border-radius: 40px;
+}
+
+.signInfo div {
+  width: 540px;
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
+  justify-content: space-between;
+}
+
+.signInfo label {
+  font-size: 28px;
+  color: #411d2a;
+}
+
+.signInfo input {
+  font-size: 20px;
+  height: 30px;
+  width: 300px;
+  padding: 5px 20px;
+  outline: none;
+  border: none;
+  box-shadow: inset 3px 3px 3px #f4d1ac, 1px 1px 1px rgba(0, 0, 0, 0.1);
+  background-color: #fbeddb;
+  border-radius: 30px;
+}
+
+@media (max-width: 1240px) {
+  .signInfo label {
+    font-size: 22px;
+  }
+  .signInfo div {
+    width: 360px;
+  }
+  .signInfo input {
+    width: 200px;
+  }
+  .signInfo form {
+    width: 80%;
+  }
+}
+
+@media (max-width: 900px) {
+  .signInfo label {
+    font-size: 16px;
+  }
+  .signInfo div {
+    width: 300px;
+  }
+  .signInfo input {
+    width: 140px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 750px) {
+  .signInfo label {
+    font-size: 14px;
+  }
+  .signInfo div {
+    width: 240px;
+  }
+  .signInfo input {
+    font-size: 14px;
+    width: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  .signInfo label {
+    font-size: 20px;
+  }
+  .signInfo div {
+    width: 480px;
+  }
+  .signInfo input {
+    width: 240px;
+  }
+}
+
+@media (max-width: 480px) {
+  .signInfo label {
+    font-size: 16px;
+  }
+  .signInfo div {
+    width: 400px;
+    margin: 20px 0;
+  }
+  .signInfo input {
+    font-size: 12px;
+    width: 140px;
+  }
+  .signInfo form {
+    width: 70%;
+    padding: 30px;
+  }
+}
+
+@media (max-width: 360px) {
+  .signInfo label {
+    font-size: 12px;
+  }
+  .signInfo div {
+    width: 300px;
+    margin: 10px 0;
+  }
+  .signInfo input {
+    width: 100px;
+    font-size: 10px;
+    height: 20px;
+  }
+  .signInfo form {
+    padding: 0px 20px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .signInfo label {
+    font-size: 12px;
+  }
+  .signInfo div {
+    width: 100%;
+  }
+  .signInfo input {
+    width: 40px;
+    height: 20px;
+  }
+}

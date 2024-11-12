@@ -1,0 +1,32 @@
+.facility section {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 610px) {
+  .facility section {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 840px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facility section {
+      height: 630px;
+  }
+}
+
+@media (max-width: 360px) {
+  .facility section {
+      height: 500px;
+  }
+}
+
+@media (max-width: 260px) {
+  .facility section {
+      height: 420px;
+  }
+}

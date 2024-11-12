@@ -1,0 +1,193 @@
+.roomPick {
+  width: 90%;
+  min-height: 700px;
+  background-color: #d5bec3;
+  box-sizing: border-box;
+  padding: 30px 50px;
+  border-radius: 40px;
+  transition: all linear 0.3s;
+}
+
+.roomPick label {
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.roomPick label svg {
+  font-size: 32px;
+  margin-left: 10px;
+}
+
+.roomPick select {
+  width: 100%;
+  margin-right: 20px;
+  border: none;
+  outline: none;
+  background-color: #fbe7da;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 160px;
+}
+
+.signRoom {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.signRoom > div {
+  height: 100px;
+  width: 100px;
+  background-color: #fbe7da;
+  border: 3px solid #411d2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.signRoom > div:hover {
+  opacity: 0.8;
+}
+
+.signBed {
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+  animation: fade 1s;
+}
+
+.signBed > div {
+  height: 60px;
+  width: 60px;
+  background-color: #fbe7da;
+  border: 3px solid #411d2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.active {
+  border: 3px solid green !important;
+}
+
+#disabled {
+  border: 3px solid red !important;
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+.roomPick h2 {
+  font-size: 40px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .roomPick {
+    min-height: fit-content;
+  }
+  .roomPick label {
+    font-size: 24px;
+  }
+  .roomPick .signRoom > div {
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 720px) {
+  .roomPick label {
+    font-size: 20px;
+  }
+  .roomPick label svg {
+    font-size: 24px;
+  }
+  .roomPick .signRoom > div {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+  }
+  .signBed > div {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+  }
+  .roomPick select {
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 560px) {
+  .roomPick select {
+    width: 100px;
+    font-size: 10px;
+    height: 20px;
+    padding: 0;
+    border-radius: 5px;
+  }
+  .roomPick label {
+    font-size: 14px;
+  }
+  .roomPick label svg {
+    font-size: 16px;
+  }
+  .roomPick .signRoom > div {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  .signBed > div {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+} 
+
+@media (max-width: 480px) {
+  .roomPick {
+    padding: 10px 20px;
+  }
+  .roomPick label {
+    font-size: 14px;
+  }
+  .signRoom {
+    flex-wrap: wrap;
+  }
+  .roomPick .signRoom > div {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .signBed {
+    flex-wrap: wrap;
+  }
+  .signBed > div {
+    font-size: 14px;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+}

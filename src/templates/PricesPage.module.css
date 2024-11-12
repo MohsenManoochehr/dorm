@@ -1,0 +1,32 @@
+.prices section {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+
+@media (max-width: 610px) {
+  .prices section {
+    flex-direction: column-reverse;
+    align-items: center;
+    height: 840px;
+  }
+}
+
+@media (max-width: 480px) {
+  .prices section {
+      height: 630px;
+  }
+}
+
+@media (max-width: 360px) {
+  .prices section {
+      height: 500px;
+  }
+}
+
+@media (max-width: 260px) {
+  .prices section {
+      height: 420px;
+  }
+}

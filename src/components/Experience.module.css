@@ -1,0 +1,75 @@
+.exp {
+  background-color: #3b1c1b;
+  width: 90%;
+  border-radius: 20px;
+  margin: auto;
+  height: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.exp section h1,
+.exp section p {
+  color: #fbe7da;
+}
+
+.exp section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+}
+
+.exp section h1 {
+  font-size: 80px;
+}
+
+.exp section p svg {
+  font-size: 20px;
+}
+
+@media (max-width: 720px) {
+  .exp section h1 {
+    font-size: 60px;
+  }
+  .exp section {
+    height: 100px;
+  }
+}
+
+@media (max-width: 480px) {
+  .exp section h1 {
+    font-size: 40px;
+  }
+  .exp section {
+    height: 80px;
+  }
+  .exp section p {
+    font-size: 14px;
+  }
+  .exp section p svg {
+    font-size: 14px;
+  }
+  .exp {
+    height: 120px;
+  }
+}
+
+@media (max-width: 360px) {
+  .exp {
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-between;
+    padding: 30px 40px;
+    width: fit-content;
+  }
+}
+
+@media (max-width: 300px) {
+  .exp {
+    padding: 20px 30px;
+  }
+}

@@ -1,0 +1,81 @@
+.facilityNames {
+  width: 400px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 60px;
+  background-color: #f4d1ac;
+  border-radius: 30px;
+  direction: rtl;
+  display: flex;
+  align-items: center;
+}
+
+.facilityNames li {
+  font-size: 20px;
+  margin-bottom: 25px;
+  line-height: 1.4;
+}
+
+@media (max-width: 1024px) {
+  .facilityNames {
+    width: 300px;
+    height: 300px;
+  }
+  .facilityNames li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 760px) {
+  .facilityNames {
+    width: 240px;
+    height: 240px;
+  }
+  .facilityNames li {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 610px) {
+  .facilityNames {
+    width: 400px;
+    height: 400px;
+    padding: 20px 60px;
+  }
+  .facilityNames li {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  .facilityNames {
+    width: 300px;
+    height: 300px;
+  }
+  .facilityNames li {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .facilityNames {
+    width: 240px;
+    height: 240px;
+    padding: 50px;
+  }
+  .facilityNames li {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 260px) {
+  .facilityNames {
+    width: 200px;
+    height: 200px;
+  }
+  .facilityNames li {
+    margin-bottom: 10px;
+  }
+}

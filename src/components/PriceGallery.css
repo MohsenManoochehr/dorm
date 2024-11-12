@@ -1,0 +1,60 @@
+.pricegallery {
+  height: 400px;
+  position: relative;
+  width: 400px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) {
+  .pricegallery {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 760px) {
+  .pricegallery {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 610px) {
+  .pricegallery {
+    width: 400px;
+    height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .pricegallery {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pricegallery {
+    width: 240px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 260px) {
+  .pricegallery {
+    width: 200px;
+    height: 200px;
+  }
+}

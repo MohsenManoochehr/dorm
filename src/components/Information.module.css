@@ -1,0 +1,83 @@
+.information {
+  background-color: #e9b9a9;
+  width: 70%;
+  margin: auto;
+  border-radius: 30px;
+  box-shadow: inset 3px 3px 5px #00000040, inset -3px -3px 5px #00000040;
+  direction: rtl;
+  padding: 50px 70px 10px;
+}
+
+.information section {
+  margin-bottom: 20px;
+}
+
+.information section:not(:last-child) {
+  border-bottom: 2px dashed #80647459;
+  padding-bottom: 20px;
+}
+
+.information section p {
+  text-align: justify;
+  font-size: 20px;
+  line-height: 2;
+}
+
+.information ul {
+  margin-right: 50px;
+}
+
+.information li {
+  margin-top: 10px;
+}
+
+.information svg {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.information h3 {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .information section p {
+    font-size: 16;
+  }
+  .information h3 {
+    font-size: 18px;
+  }
+  .information svg {
+    font-size: 24px;
+  }
+  .information {
+    width: 50%;
+  padding: 30px 40px 10px;
+  }
+  .information ul {
+    margin-right: 30px;
+  }
+  .information li {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 720px) {
+  .information section p {
+    font-size: 14px;
+  }
+  .information li {
+    font-size: 12px;
+  }
+  .information ul {
+    margin-right: 10px;
+  }
+  .information svg {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  .information h3 {
+    font-size: 14px;
+  }
+}

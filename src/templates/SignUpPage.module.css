@@ -1,0 +1,50 @@
+.signPage {
+  direction: rtl;
+}
+
+.signPage section {
+  margin: auto;
+  animation: fade 1s;
+}
+
+.signPage button {
+  outline: none;
+  border: none;
+  background-color: #d94b0e;
+  padding: 20px 30px;
+  color: #fbe7da;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 5px;
+  display: block;
+  cursor: pointer;
+  width: 300px;
+  transition: all linear 0.3s;
+}
+
+.signPage button:hover {
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.3),
+    5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.deactive {
+  opacity: 0.5;
+  cursor:not-allowed !important;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .signPage button {
+    width: 200px;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,35 @@
+.home .title {
+  direction: rtl;
+  text-align: center;
+  font-size: 40px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 40px;
+  padding: 30px 90px;
+  background-color: #facaac80;
+  width: fit-content;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.178);
+}
+
+@media (max-width: 720px) {
+  .home .title {
+    font-size: 30px;
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .home .title {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.178);
+  }
+}
+
+@media (max-width: 320px) {
+  .home .title {
+    font-size: 16px;
+  }
+}

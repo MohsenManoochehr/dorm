@@ -1,0 +1,93 @@
+.headLink {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  padding: 30px 40px;
+  border-radius: 20px;
+  box-shadow: inset 4px 4px 4px #0000001c;
+  background-color: #e4947281;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.headLink > div {
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.headLink h1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  font-size: 30px;
+}
+
+.headLink h1 svg {
+  margin-left: 10px;
+}
+
+.headLink a {
+  color: #fbe7da;
+  padding: 10px 15px;
+  background-color: #f07f42;
+  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.151);
+  border-radius: 10px;
+  transition: all linear 0.2s;
+}
+
+.headLink a:hover {
+  background-color: #d94b0e;
+}
+
+.headLink p {
+  direction: rtl;
+  width: 90%;
+  margin: auto;
+  padding: 15px 30px;
+  border-radius: 10px;
+  line-height: 2;
+  background-color: #facaac;
+  box-shadow: inset 4px 4px 4px #0000001c;
+  box-sizing: border-box;
+}
+
+@media (max-width: 720px) {
+  .headLink h1 {
+    font-size: 24px;
+  }
+  .headLink > div {
+    flex-direction: column;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headLink h1 {
+    font-size: 20px;
+  }
+  .headLink p {
+    font-size: 14px;
+  }
+  .headLink {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .headLink h1 {
+    font-size: 16px;
+  }
+  .headLink h1 svg {
+    margin-left: 5px;
+  }
+  .headLink p {
+    font-size: 12px;
+  }
+  .headLink {
+    padding: 15px 10px;
+  }
+}
