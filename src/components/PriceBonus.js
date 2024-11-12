@@ -23,7 +23,7 @@ function PriceBonus({ room }) {
       <p>
         {<IoPricetagsOutline />}
         قیمت این اتاق ماهانه
-        <b>"{e2p(room.price)}"</b>
+        <b>{`"${e2p(room.price)}"`}</b>
         میلیون تومان میباشد.
       </p>
     </div>
